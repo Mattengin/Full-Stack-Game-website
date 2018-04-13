@@ -1,0 +1,19 @@
+@import "../variables";
+
+.mainDiv{
+    border: 1px none black;
+    border-radius: 2em;
+    padding: 1em;
+    // background-color: white;
+    @include blurElement();
+    color: $secondaryTextTheme;
+
+    img{
+        width: 10em;
+        height: 10em;
+    }
+    margin: 2em;
+    h1{
+        color: $secondaryTextTheme;
+    }
+}

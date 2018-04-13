@@ -1,0 +1,39 @@
+// .carousel{
+//     height: 45em;
+
+//     @media screen and (max-width: 800px) {
+//         height: 10em;
+//       }
+// }
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+.cardBody{
+    background-color: white;
+    padding: 3em;
+    border-radius: 3px;
+    
+}
+
+.images{
+    
+    height: 25em;
+    width: 100%;
+
+    @media screen and (max-width: 800px) {
+        height: 20em;
+        display: block;
+      }
+}
+
+// @media screen and (min-width: 700px) {
+//     .images {
+//         height: 25em;
+//     }
+// }
+
+// removes arrow
+.arrow{
+    opacity: 0;
+   
+}

@@ -1,0 +1,125 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import "../variables";
+
+.logged_out_banner {
+    height: 4em;
+    width: 100%;
+    background:linear-gradient(#9c129e, #630664);
+    color: white;
+    // display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5em; 
+    margin-bottom: 0.8em;
+}
+
+// .logged_out_content h1 {
+//     display: inline-block;
+// }
+
+// .space{
+//     // margin: 5%; 
+
+// }
+
+.logo{
+    // color: white;
+    // font-size: 3em;
+    color: transparent !important;
+    background: $logoBackground;
+    background-size: cover;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3em;
+}
+
+// .maskedTextLogo{
+//     color: transparent !important;
+//     background: $logoBackground;
+//     background-size: cover;
+//     background-clip: text;
+//     -moz-background-clip: text;
+//     -webkit-background-clip: text;
+//     font-size: 3em;
+// }
+
+.link{
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    // margin-left: 3em;
+    font-size: 12px;
+}
+
+.link :hover {
+    background: #630664;
+}
+
+.dropdown{
+    color: black;
+}
+
+.button {
+    background-color: none;
+    color: white;
+    text-decoration: none;
+    margin-left: 2em;
+    font-size: 12px;
+}
+
+.button :hover{
+    background-color: black;
+}
+
+// .register{
+//     margin-right: 30%;
+// }
+
+.holder{
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+    
+}
+    .holds{
+        margin-left: 20%;
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+  }
+  
+  .holds a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .holder:hover .holds {
+    display: block;
+  }
+  
+.searchBar{
+    width: 10em;
+}
+.notifications{
+    background-color: #181818;
+    padding: 7px;
+    min-height: 8em;
+    min-width: 15em;
+}
+.notificationsitem{
+    background-color: #181818;
+    padding: 13px;
+}
+.notifbutton{
+    background: #9c129e;
+    border: none;
+    margin: 5px;
+}

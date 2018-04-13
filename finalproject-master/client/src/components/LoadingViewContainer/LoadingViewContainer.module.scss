@@ -1,0 +1,38 @@
+@import "../variables";
+
+.loadingPanel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    // margin: auto;
+    z-index: 1000;
+    // background-color: $transparentBackgroundColor;
+    @include blurElement();
+
+    
+
+    .ringLoader{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        // margin-top: -50px;
+        // margin-left: -50px;
+        .loaderContainer{
+            right: 25%;
+        }
+        h1{
+            padding-top: 0.5em;
+            color: $secondaryColorTheme;
+        }
+    }
+}
+
+// .loadingPanel::before{
+//     // -webkit-filter: blur(5px);
+//     // -moz-filter: blur(5px);
+//     // -o-filter: blur(5px);
+//     // -ms-filter: blur(5px);
+//     // filter: blur(5px);
+// }

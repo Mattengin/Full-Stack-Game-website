@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS Tokens;
+
+CREATE TABLE Tokens (
+  id int NOT NULL AUTO_INCREMENT,
+  userid int NOT NULL,
+  PRIMARY KEY (id, userid),
+  KEY usersFK_idx (userid),
+  CONSTRAINT usersFK FOREIGN KEY (userid) REFERENCES users (id) ON DELETE NO ACTION ON UPDATE NO ACTION
+);

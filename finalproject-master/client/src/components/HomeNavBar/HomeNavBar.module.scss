@@ -1,0 +1,36 @@
+.leftsquare {
+    height: 20em;
+    width: 50%;
+    float: left;
+    margin-top: 6em;
+}
+.rightsquare {
+    height: 20em;
+    width: 50%;
+    float: right;
+    color: white;
+    margin-top: 6em;
+    padding: 4em;
+    padding-left: 2em;
+}
+.carouselContainer{
+    margin: 0 auto;
+    max-width: 80%;
+    height: 630px;
+    box-shadow: -10px 10px 5px black;
+}
+// .homeBody{
+//     background-color: white;
+//     height: 100%;
+//     margin: auto;
+//     width: 80%; 
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+.post{
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    width: 50%;
+}

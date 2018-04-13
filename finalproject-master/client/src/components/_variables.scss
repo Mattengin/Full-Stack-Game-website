@@ -1,0 +1,35 @@
+$logoBackground: url(https://media.giphy.com/media/HJ7vV2YUBHnYA/giphy.gif);
+// https://media.giphy.com/media/10YdC8IJKpPyRG/giphy.gif
+// https://media.giphy.com/media/HJ7vV2YUBHnYA/giphy.gif
+// https://media.giphy.com/media/3oKIPzFR3ajKd4YZ5m/giphy.gif
+// https://lh3.googleusercontent.com/-S8DnyswM-4M/Wk_Td80ZC0I/AAAAAAACzWA/TAFJs7kyBAM_f-7T1X5hivXdpVfAF6z0QCJoC/w480-h545-rw/Orion%2BNebula%2B%2528M42%2529%2Band%2BNGC%2B1977%2B-%2BMotion%2BEffects%2Bby%2BRexisky%2B%2528480%25E2%2580%2586%25C3%2597%25E2%2580%2586545%2529.gif
+$themeColor: linear-gradient(#9c129e, #630664);
+// $secondaryColorTheme: #46bfee;
+$secondaryColorTheme: rgba(#4d4dff, 0.95);
+$transparentBackgroundColor: rgba(black, 0.5);
+$ternaryColorTheme: white;
+// $secondaryTextTheme: rgba(#1488CC, 0.85);
+$secondaryTextTheme: rgba(white, 0.9);
+$primaryGlassGradientFallback: #000000;
+$primaryGlassGradientWebkit: -webkit-linear-gradient(to top, #434343, #000000);
+$primaryGlassGradient: inear-gradient(to top, rgba(#434343, 0.3), rgba(#000000, 0.5));
+$ternaryTextTheme: rgba(#781A78, 0.9);
+
+
+$primaryBlurColor:#434343;
+$secondaryBlurColor: #000000;
+$primaryBlurAlpha: 0.3;
+$secondaryBlurAlpha: 0.5;
+
+
+@mixin blurElement($blurColor1:$primaryBlurColor, $blurColor2:$secondaryBlurColor, $boxShadowColor:$primaryBlurColor, $blurAlpha1: $primaryBlurAlpha, $blurAlpha2: $secondaryBlurAlpha){
+    // background: #000000;  /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to top, rgba(#434343, 0.3), rgba(#000000, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // box-shadow: 0 0 1000px 1px #434343;
+
+    background: $blurColor2;
+    background: -webkit-linear-gradient(to top, $blurColor1, $blurColor2);
+    background: linear-gradient(to top, rgba($blurColor1, $blurAlpha1), rgba($blurColor2, $blurAlpha2)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 0 1000px 1px $boxShadowColor;
+}

@@ -1,0 +1,62 @@
+@import "../variables";
+
+.mainPiece{
+    .transparentBackground{
+        background-color: transparent;
+        color: black;
+    }
+
+    .heading{
+        font-size: 3em;
+    }
+
+    .mediaBody{
+        margin: 2em;
+    }
+
+    .borderedDiv{
+
+        // background-color: purple;
+        margin: 2em;
+    }
+
+    .hoursLogged{
+        font-size: 1.5em;
+    }
+
+    .completed{
+        margin-left: 2em;
+    }
+
+    // .listingContainer{
+    //     margin: 2em;
+    // }
+    
+    .removeIcon{
+        font-size: 2em;
+        cursor: pointer;
+    }
+    
+    .removeIcon:hover{
+        color: purple;
+    }
+
+}
+
+.bg{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.chevron{
+    position: fixed;
+    cursor: pointer;
+    left: 90%;
+    top: 90%;
+    font-size: 5em;
+    color: $ternaryTextTheme;
+    text-shadow: 0 2px 150px rgba(grey, 0.8);
+}

@@ -1,0 +1,43 @@
+.banner{
+  background-image: url('http://luciendodge.com/wp-content/uploads/2016/05/HunterXHunter-banner.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -6em;
+}
+
+.wrapper { 
+  display: grid; 
+  grid-template-columns: 30% 40% 30%;
+  grid-column-gap: 1em;
+  margin-top: 5em;
+} 
+
+
+.profilePanel{
+  text-align: center;
+  background-color: #222;
+  padding: 2em;
+  color: white;
+  margin: 0 auto;
+  height: 24em;
+}
+.profileImage{
+  background-color: #181818;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.clickable {
+  cursor: pointer;
+}
+.bg{
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.button {
+  background-color: black;
+  color: white;
+}

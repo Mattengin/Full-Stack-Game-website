@@ -1,0 +1,120 @@
+@import "../variables";
+
+.linkContainer{
+    padding: 1em;
+a{
+    color: palevioletred;
+    text-transform: uppercase;
+
+}
+}
+
+body {
+    background: url(http://andstud.io/wp-content/uploads/2014/03/blurrrr2.jpg)no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.root {
+    height: 100vh;
+}
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+.ion-social-twitter-outline {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+.ion-social-twitter {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: skyblue;
+}
+
+.ion-social-instagram {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+.ion-social-twitch-outline {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+.ion-social-instagram-outline {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: palevioletred;
+}
+
+.ion-social-twitch {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: purple;
+}
+
+.ion-social-youtube-outline {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+.ion-social-youtube {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: red;
+}
+
+.ion-person {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+.ion-at {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+.ion-android-share-alt {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: orange;
+    float: left;
+    position: relative;
+}
+
+.ion-edit {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: yellow;
+    float: right;
+}
+.panel{
+    // background-color: rgba(0, 0, 0, 0.5);
+    // background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(46,46,47,0.5) 35%);
+    // background: #000000;  /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to top, rgba(#434343, 0.3), rgba(#000000, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // box-shadow: 0 0 1000px 1px #434343;
+    @include blurElement();
+    color: $secondaryTextTheme;
+
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}

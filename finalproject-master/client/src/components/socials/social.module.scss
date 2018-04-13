@@ -1,0 +1,146 @@
+.body {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.heading {
+    color: white;
+}
+
+.spacingTwitter {
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+.spacingInsta {
+    font-size: 1.5em;
+    margin-left: 1em;
+
+}
+
+.spacingTwitch {
+    font-size: 1.5em;
+    margin-left: 1em;
+
+}
+
+.spacingTube {
+    font-size: 1.5em;
+    margin-left: 1em;
+
+}
+
+.socialTable {
+    width: 25%;
+    font-size: 1em;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+
+.headingSocial {
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.ionSocialInstagram {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+.avatar {
+    color: black;
+    margin: 1em;
+    border-radius: 5px;
+    width: 40%;
+    height: 2.5em;
+    padding: 0 0.5em;
+    font-size: 24px;
+}
+
+.handle {
+    color: black;
+    margin: 1em;
+    border-radius: 5px;
+    width: 40%;
+    height: 2.5em;
+    padding: 0 0.5em;
+    font-size: 24px;
+}
+
+// .bodyTwo {
+//     overflow: hidden;
+//     text-align: center;
+// }
+
+.twitterTwo {
+    color: black;
+    margin: 1em;
+    border-radius: 5px;
+    width: 40%;
+    height: 2.5em;
+    padding: 0 0.5em;
+    font-size: 24px;
+}
+
+.instagramTwo {
+    color: black;
+    margin: 1em;
+    border-radius: 5px;
+    width: 40%;
+    height: 2.5em;
+    padding: 0 0.5em;
+    font-size: 24px;
+}
+
+
+.twitchTwo {
+    color: black;
+    margin: 1em;
+    border-radius: 5px;
+    width: 40%;
+    height: 2.5em;
+    padding: 0 0.5em;
+    font-size: 24px;
+}
+
+.youtubeTwo {
+    color: black;
+    margin: 1em;
+    border-radius: 5px;
+    width: 40%;
+    height: 2.5em;
+    padding: 0 0.5em;
+    font-size: 24px;
+}
+
+.button {
+    background-color: purple;
+    color: white;
+    padding: 1em;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+}
+
+.bg{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.move {
+    padding-top: 4em;
+}
+
+.bgTwo{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}

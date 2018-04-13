@@ -1,0 +1,64 @@
+
+.rightsquare {
+    height: 20em;
+    width: 50%;
+    float: right;
+    color: white;
+    margin-top: 6em;
+    padding: 4em;
+    padding-left: 2em;
+}
+.carouselContainer{
+    margin: 0 auto;
+    max-width: 80%;
+    height: 630px;
+    box-shadow: -10px 10px 5px black;
+}
+.homeBody{
+    height: 100%;
+    margin: auto;
+    width: 80%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.post{
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    width: 50%;
+}
+.space {
+    height: 1em;
+    width: 100%;
+}
+.homeBanner{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+
+    background-blend-mode: multiply;
+    background-color: #8872af;
+    background-image: url('http://www.extremetech.com/wp-content/uploads/2011/11/dreamhack-night-shot.jpg');
+    height: 90%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 40%, 0 100%);
+}
+
+.bg{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .gg{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+  }
