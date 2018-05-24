@@ -1,2 +1,2 @@
 # Full-Stack-Game-website
-A full-stack application Game forum application I made on a team.
+A full-stack game forum website I made on a team.
