@@ -1,4 +1,4 @@
-# Covalence Full Stack Project Boilerplate
+# Full Stack Project Boilerplate
 This boilerplate includes build scripts and setup for a ReactJS front-end and an ExpressJS back-end.
 
 ### Getting Started
